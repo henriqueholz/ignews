@@ -32,8 +32,12 @@
     margin-top: 1.5rem;
 
     span {
-      font: var(--cyan-500);
+      color: var(--cyan-500);
       font-weight: bold;
     }
+  }
+
+  button {
+    margin-top: 2.5rem;
   }
 }
