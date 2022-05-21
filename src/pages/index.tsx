@@ -47,11 +47,10 @@ export const getServerSideProps: GetStaticProps = async () => {
       currency: "USD"
     }).format(price.unit_amount / 100)
   }
-  
+
   return {
     props: {
       product
-    },
-    revalidate: 60 * 60 * 24, // 24 hours
+    }
   }
 }
